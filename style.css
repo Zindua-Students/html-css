@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#navbar {
+    background-color: black;
+    color: white;
+}
+#navbar ul {
+    list-style: none;
+}
+
+#navbar ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+p {
+    color: green;
+}
+
+
+
+.zindua .heading{
+    text-align: center;
+    color: red;
+}
+.zindua .heading::after{
+    content: "✅️";
+    
+}
+
+.zindua .intro h1{
+    color: blue;
+    text-align: center;
+}
+
+.zindua .intro p{
+    color: blue;
+}
+
+a[target="_blank"] {
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+a[target="_blank"]:hover {
+    background-color: yellow;
+    color: black;
+}
+
+a[target="_blank"]:active {
+    transform: scale(0.95);
+    background-color: green;
+}
+
+a[target="_blank"]:visited {
+    background-color: orange;
+}
+

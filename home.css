@@ -1,0 +1,161 @@
+h2 {
+    color: red;
+    /* text-align: justify;
+    text-align-last: right; */
+    /* direction: rtl; */
+    text-indent: 40px;
+    letter-spacing: 3px;
+    /* word-spacing: 18px; */
+    white-space: nowrap;
+    /* text-decoration: underline; */
+    /* text-decoration-line: underline;
+    text-decoration-style: dashed;
+    text-decoration-color: green; */
+    text-shadow: 2px 2px 5px blue;
+    font-size: 80px;
+}
+
+.unit-mm {
+    font-size: 5mm;
+    color: #ff0000;
+}
+
+.unit-cm {
+    font-size: 1cm;
+    color: #f00;
+
+}
+
+.unit-inch {
+    font-size: 0.5in;
+    color: rgb(255, 0, 0);
+}
+
+.unit-quarter {
+    font-size: 40Q;
+    color: rgba(255, 0, 0, 0.2);
+}
+
+.unit-em {
+    font-size: 2em;
+    color: hsl(120, 100%, 50%);
+}
+
+.unit-rem {
+    font-size: 1.5rem;
+}
+
+.unit-vw {
+    font-size: 5vw;
+}
+
+.unit-vh {
+    font-size: 5vh;
+}
+
+.unit-percent {
+    font-size: 150%;
+}
+
+* {
+    /* background-image: url('assets/snowman-24856_128.gif');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+/* body {
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+} */
+
+.small {
+    font-size: small;
+}
+
+.medium {
+    font-size: medium;
+}
+
+.larger {
+    font-size: larger;
+}
+
+.px {
+    font-size: 18px;
+}
+
+.percent {
+    font-size: 125%;
+}
+
+
+.normal {
+    font-weight: normal;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.lighter {
+    font-weight: lighter;
+}
+
+.number {
+    font-weight: 700;
+}
+
+.images .img1 {
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+}
+
+.images .img2 {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.images .img3 {
+    border: 2px solid red;
+    border-radius: 10px;
+    border: 7px solid black;
+    width: 200px;
+    height: 200px;
+}
+
+.images .img4 {
+    width: auto;
+    height: 150px;
+    margin: 10px;
+    filter: blur(3px);
+}
+
+.images .img5 {
+    width: auto;
+    height: 150px;
+    margin: 10px;
+    filter: invert(110%);
+}
+
+.images .img6 {
+    width: auto;
+    height: 150px;
+    margin: 10px;
+    filter: saturate(8);
+}
+
+.images .img7 {
+    width: auto;
+    height: 150px;
+    margin: 10px;
+    filter: sepia(110%);
+}
